@@ -1,8 +1,13 @@
 /* Variables */
 
 /* Reset */
+body{
+  margin: 0;
 
-
+}
+*{
+  box-sizing: border-box;
+}
 /* Base Styles */
 @font-face {
 	font-family: russian;
@@ -12,6 +17,30 @@
 body{
 	background-color: #DD3D39;
 	font-family: russian, serif;
+}
+.header{
+  width: 100%;
+}
+.header__menu{
+  width: 100%;
+  position: fixed;  
+  z-index: 100;
+  top: 0;
+  left: 0;
+  border-bottom: 15px solid #ffff;
+  text-align: center;
+  background-color: #DD3D39;
+}
+.header__menu a{
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #ffff;
+
+}
+.top{
+  position: relative;
+  top: 69px;
 }
 
 .album{
