@@ -26,10 +26,7 @@
    
   .pulse_holder .pulse_marker
   {
-    width: 16px;
-    height: 16px;
-    background: #A3B7C9;
-    border-radius: 28px;
+   
   }
  
   .pulse_holder .pulse_rays
@@ -37,8 +34,8 @@
     margin: 0 auto;
     border-radius: 100px;
     position: absolute;
-    right: -26px;
-    top: -26px;
+    right: -24px;
+    top: -24px;
     z-index: 10;
     background-color: transparent;
     opacity: 0.1;
@@ -54,4 +51,34 @@
     -webkit-animation: pulse 2s linear infinite;
     -moz-animation: pulse 2s linear infinite;
     border-image: initial;
+  }
+
+  .pulse_holder .pulse_rays2
+  {
+    margin: 0 auto;
+    border-radius: 100px;
+    position: absolute;
+    right: -34px;
+    top: -34px;
+    z-index: 10;
+    background-color: transparent;
+    opacity: 0.1;
+    width: 84px;
+    height: 84px;
+    border: 2px solid #F2D274;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -o-border-radius: 100px;
+    -ms-border-radius: 100px;
+    border-radius: 100px;
+    /* Giving Animation Function */
+    -webkit-animation: pulse 2s linear infinite;
+    -moz-animation: pulse 2s linear infinite;
+    border-image: initial;
+  }
+
+  .sputnik {
+max-height: 4em;
+max-width: 4em;
+
   }
