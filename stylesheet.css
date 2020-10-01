@@ -32,7 +32,7 @@ body{
 	grid-column: 1/ span 3;
 }
 
-    @-webkit-keyframes pulse
+@-webkit-keyframes pulse
   {      
     0% {-webkit-transform: scale(0); opacity: 0;}
     8% {-webkit-transform: scale(0); opacity: 0;}
@@ -41,14 +41,14 @@ body{
     100% {opacity: 0; -webkit-transform: scale(1);}
   }
 
-  @-moz-keyframes pulse
-  {      
-    0% {-moz-transform: scale(0); opacity: 0;}
-    8% {-moz-transform: scale(0); opacity: 0;}
-    15% {-moz-transform: scale(0.1); opacity: 1;}
-    30% {-moz-transform: scale(0.5); opacity: 1;}
-    100% {opacity: 0; -moz-transform: scale(1);}
-  }
+@-moz-keyframes pulse
+{      
+  0% {-moz-transform: scale(0); opacity: 0;}
+  8% {-moz-transform: scale(0); opacity: 0;}
+  15% {-moz-transform: scale(0.1); opacity: 1;}
+  30% {-moz-transform: scale(0.5); opacity: 1;}
+  100% {opacity: 0; -moz-transform: scale(1);}
+}
  
   .pulse_holder
   {
@@ -58,11 +58,6 @@ body{
     left: 350px;
   }
    
-  .pulse_holder .pulse_marker
-  {
-   
-  }
- 
   .pulse_holder .pulse_rays
   {
     margin: 0 auto;
