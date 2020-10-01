@@ -2,13 +2,39 @@
 
 /* Reset */
 
+
 /* Base Styles */
+@font-face {
+	font-family: russian;
+	src: url(media/Russian.ttf);
+}
+
 body{
-    background-color: #DD3D39;
+	background-color: #DD3D39;
+	font-family: russian, serif;
+}
+
+.album{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.kosmo{
+	max-width: 220px;
+	max-height: 220px;
+
+}
+.kasa{
+	max-width: 220px;
+	max-height: 220px;
+
+}
+.show{
+	grid-column: 1/ span 3;
 }
 .sputnik{
     
 }
+
 /* Instagram
 ---------------------------------------------------------------------------------------------------- */
 
