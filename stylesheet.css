@@ -45,9 +45,7 @@ body{
   position: relative;
   top: 69px;
 }
-#home{
-justify-content: center;
-}
+
 h2{
 	padding-top: 69px;
 	text-align: center;
@@ -138,6 +136,7 @@ h2{
 .ticket:hover {background: #eee;}
 
 .ticket {color:black;}
+
 
 /* Mobile Style */
 

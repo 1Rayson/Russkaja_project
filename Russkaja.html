@@ -148,7 +148,7 @@
                     MAR 26 FRI
                     Jazzhaus Freibhaus @ 8:00pm
                     Freiburg, Germany
-                    <button class="ticket">Ticket</button>
+                    <button class="sold-out">Sold out</button>
                 </li>
                 <li>
                     MAR 27 SAT
@@ -170,16 +170,18 @@
                 </li>
 
             </ul>
-<img class="flyingrobot" src="media/flyingrobot.svg" alt="flying robot">
+            -<img class="flyingrobot" src="media/flyingrobot.svg" alt="flying robot">
         </section>
         <br>
         <section class="instagram" id="instagram">
             <h2>instagram</h2>
             <br>
+            <section id="instagramfeed"></section>
         </section>
-        <section class="flyingrocket">
-            <img src="media/rocket.svg" alt="rocket">
-        </section>
+        <br>
+    </section>
+    <section class="flyingrocket">
+        <img src="media/rocket.svg" alt="rocket">
         <section class="about" id="about">
             <h2>About</h2>
         </section>
@@ -191,7 +193,7 @@
         $(window).on("load", function () {
             $.instagramFeed({
                 "username": "russkaja_official",
-                "container": "#instagram",
+                "container": "#instagramfeed",
                 "lazy_load": true,
                 "display_profile": false,
                 "display_biography": false,
