@@ -48,7 +48,8 @@ body{
 h2{
 	text-align: center;
 	color: #FDEEC9;
-	
+	border-bottom: 15px solid #FDEEC9;
+	max-width: 80%;
 }
 
 .album{
