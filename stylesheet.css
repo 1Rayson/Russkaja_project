@@ -45,11 +45,16 @@ body{
   position: relative;
   top: 69px;
 }
+#home{
+justify-content: center;
+}
 h2{
+	padding-top: 69px;
 	text-align: center;
 	color: #FDEEC9;
 	border-bottom: 15px solid #FDEEC9;
 	max-width: 80%;
+	margin: auto;
 }
 
 .album{
