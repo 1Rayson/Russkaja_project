@@ -121,6 +121,9 @@ h2{
 	font-size: 16px;
 	cursor: pointer;
 	display: inline-block;
+	font-family: russian, serif;
+	position: relative;
+	left: 300px;
   }
 .sold-out {
 	border: solid black;
@@ -128,6 +131,9 @@ h2{
 	padding: 8px 18px;
 	font-size: 16px;
 	display: inline-block;
+	font-family: russian, serif;
+	position: relative;
+	left: 300px;
 }
 /* On mouse-over */
 .ticket:hover {background: #eee;}
