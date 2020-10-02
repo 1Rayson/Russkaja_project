@@ -113,6 +113,27 @@ h2{
 }
 /* Fonts */
 
+/* Buttons */
+.ticket {
+	border: solid black;
+	background-color: #eec941;
+	padding: 8px 18px;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline-block;
+  }
+.sold-out {
+	border: solid black;
+	background-color:#FDEEC9;
+	padding: 8px 18px;
+	font-size: 16px;
+	display: inline-block;
+}
+/* On mouse-over */
+.ticket:hover {background: #eee;}
+
+.ticket {color:black;}
+
 /* Mobile Style */
 
 /* small tablets styles */
