@@ -8,6 +8,12 @@ body{
 *{
   box-sizing: border-box;
 }
+ul{
+	list-style-type: none;
+}
+img{
+	max-width: 100%;
+}
 /* Base Styles */
 html{
 	scroll-behavior: smooth;
@@ -46,23 +52,29 @@ body{
   top: 69px;
 }
 
+.peacehands{
+max-width: 100% ;
+}
+
 h2{
 	padding-top: 69px;
 	text-align: center;
 	color: #FDEEC9;
 	border-bottom: 15px solid #FDEEC9;
-	max-width: 80%;
+	max-width: 30%;
 	margin: auto;
+	font-size: 5em;
 }
 
 .album{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+
 }
 .kosmo{
 	max-width: 220px;
 	max-height: 220px;
-
 }
 .kasa{
 	max-width: 220px;
