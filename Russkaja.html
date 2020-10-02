@@ -33,10 +33,19 @@
     <main class="top">
 
         <Section class="home" id="home">
-
+            <article>
+                <h3>“WelcOme my friend this is the best part Of the Game
+                    When peOple cOme tOgether just tO feel the same
+                    And when yOu need a friend tO feel like yOu’re at hOme” 
+                    - RUSSKAJA</h3>
+            </article>
+            <section class="peacehands">
+                <img src="media/Peacehands.svg" alt="peacehands">
+            </section>
         </Section>
         <section id="album">
             <h2>Albums</h2>
+            <br>
             <article class="album">
                 <a href="https://open.spotify.com/album/2Gy5JaGmiaykwDoJZH4xQO?si=j_XvjRASTxSTCtrrNJU3hQ">
                     <img src="media/nooneisillegal.jpg" alt=" album called no one is illegal">
@@ -48,15 +57,15 @@
                     <img class="kosmo" src="media/kosmopolit.jpg" alt="album called kosmopolitturbo">
                 </a>
                 <a href="https://open.spotify.com/album/13NsaZv3WwEcIwLPtXe3ff?si=PmsLiQeJRWCUmSMvwUx4Jw">
-                    <img src="media/peaceandlove.jpg" alt="">
+                    <img src="media/peaceandlove.jpg" alt="album called Peace, love and russian roll">
                 </a>
 
                 <a href="https://open.spotify.com/album/3vHsn64XpXyMts3EqqOSaY?si=_tOxu7G2RP6QwFcjUCTB6w">
-                    <img src="media/vooso.jpg" alt="">
+                    <img src="media/vooso.jpg" alt="album called Russian Voodoo">
                 </a>
 
                 <a href="https://open.spotify.com/album/5iwMOYQut8cZZJGUKd1aok?si=1kqbEZEERTO1jOy_QLHmAw">
-                    <img class="kasa" src="media/Kasatchok Superstar.jpg" alt="">
+                    <img class="kasa" src="media/Kasatchok Superstar.jpg" alt="album called Kasatchok Superstar">
                 </a>
 
                 <a class="show" href="https://open.spotify.com/artist/3FuzPmx49qjFhzbG99d9Kr">
@@ -76,7 +85,9 @@
             <br>
         </section>
         <section class="tour" id="tour">
+            
             <h2>Tour</h2>
+            <br>
             <ul>
                 <li>NOV 11 WED
                     FOLKNÄCHTE 2020 @ 7:00pm
@@ -162,12 +173,18 @@
                 </li>
 
             </ul>
-
+            -<img class="flyingrobot" src="media/flyingrobot.svg" alt="flying robot">
         </section>
         <br>
         <section class="instagram" id="instagram">
             <h2>instagram</h2>
+            <br>
+            <section id="instagramfeed"></section>
         </section>
+        <br>
+    </section>
+    <section class="flyingrocket">
+        <img src="media/rocket.svg" alt="rocket">
         <section class="about" id="about">
             <h2>About</h2>
         </section>
@@ -179,7 +196,7 @@
         $(window).on("load", function () {
             $.instagramFeed({
                 "username": "russkaja_official",
-                "container": "#instagram",
+                "container": "#instagramfeed",
                 "lazy_load": true,
                 "display_profile": false,
                 "display_biography": false,
