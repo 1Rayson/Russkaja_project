@@ -23,6 +23,14 @@ html{
 	src: url(media/Russian.ttf);
 }
 
+.quote {
+	height: 100px;
+	width: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 body{
 	background-color: #DD3D39;
 	font-family: russian, serif;
