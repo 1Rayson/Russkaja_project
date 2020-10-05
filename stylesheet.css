@@ -100,6 +100,13 @@ h2{
   font-size: 1.5em;
 }
 
+.tour{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	margin-left: 200px;
+	margin-right: 200px;
+}
 /* Flip card
 ____________________________________________________________________________________________________ */
 .flip-card {
@@ -191,7 +198,7 @@ ________________________________________________________________________________
 	display: inline-block;
 	font-family: russian, serif;
 	position: relative;
-	left: 300px;
+	left: 400px;
   }
 .sold-out {
 	border: solid black;
@@ -201,7 +208,7 @@ ________________________________________________________________________________
 	display: inline-block;
 	font-family: russian, serif;
 	position: relative;
-	left: 300px;
+	left: 400px;
 }
 /* On mouse-over */
 .ticket:hover {background: #eee;}
