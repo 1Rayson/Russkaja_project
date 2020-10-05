@@ -23,14 +23,6 @@ html{
 	src: url(media/Russian.ttf);
 }
 
-.quote {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-	width: 28em;
-	font-size: 20px;
-}
-
 body{
 	background-color: #DD3D39;
 	font-family: russian, serif;
@@ -59,6 +51,13 @@ body{
 .top{
   position: relative;
   top: 69px;
+}
+.quote {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 28em;
+	font-size: 20px;
 }
 
 .peacehands{
