@@ -115,7 +115,12 @@ h2{
 	margin-left: 300px;
 	margin-right: 700px;
 }
-
+.flyingrobot{
+	text-align: center;
+}
+.flyingrocket{
+	text-align: center;
+}
 .abouttext{
 	margin-left: 220px;
 	margin-right: 220px;
