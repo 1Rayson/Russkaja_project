@@ -59,6 +59,17 @@ body{
   position: relative;
   top: 69px;
 }
+.wrapper {
+	display: grid;
+	grid-template-columns: 10px 10px 1fr 2fr 1fr 10px 10px;
+	grid-gap: 20px;
+	max-width: 1000px;
+	margin: 0 auto;
+	grid-template-areas: 
+		". . header header header . ."
+		"line-left-short line-left panel content images line-right line-right-short"
+		". . . footer footer . .";
+}
 .quote {
 	margin-left: auto;
 	margin-right: auto;
@@ -116,11 +127,22 @@ h2{
 	margin-right: 200px;
 	grid-row-gap:10px;
 }
-
+.flyingrobot{
+	text-align: center;
+}
+.flyingrocket{
+	text-align: center;
+}
 .abouttext{
-	margin-left: 220px;
-	margin-right: 220px;
+	margin-left: 20%;
+	margin-right: 20%;
 	font-size: 30px;
+}
+
+.bandmembers {
+	padding-left: 20%;
+	padding-right: 20%;
+	width: 1450px;
 }
 
 /* Flip card
