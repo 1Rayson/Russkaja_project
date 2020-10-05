@@ -45,6 +45,7 @@ body{
   border-bottom: 15px solid #FDEEC9;
   text-align: center;
   background-color: #DD3D39;
+  font-size: 25px;
 }
 .header__menu a{
   padding: 15px;
@@ -98,6 +99,12 @@ h2{
   color: #FDEEC9;
   text-decoration: none;
   font-size: 1.5em;
+}
+
+.abouttext{
+	margin-left: 220px;
+	margin-right: 220px;
+	font-size: 30px;
 }
 
 /* Flip card
