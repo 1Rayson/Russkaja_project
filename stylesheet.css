@@ -20,11 +20,39 @@ img{
 	grid-gap: 20px;
 	margin: 0 auto;
 }
+
+.wrapper-home{
+
+}
+
 .wrapper-album {
 	grid-template-areas: 
 		". . h2 . ."
 		"line-left-short line-left album line-right line-right-short"
 		". . show . .";
+}
+
+.wrapper-tour{
+	grid-template-columns: 20px 10px 1fr 10px 20px ;
+	grid-template-areas:
+		". . h2 h2 . . "
+		"line-left-short line-left tour ticket line-right line-right-short" ;
+}
+
+.wrapper-instagram{
+	grid-template-areas:
+		". . h2 . ."
+		"line-left-short line-left instagram line-right line-right-short" ;
+}
+
+.wrapper-about{
+	grid-template-areas: 
+	". . h2 . ."
+	" line-left-short line-left about line-right line-right-short";
+}
+
+.wrapper-sign-up{
+	grid-template-areas: ;
 }
 
 .line-left{
@@ -98,7 +126,7 @@ body{
 }
 
 .peacehands{
-max-width: 100% ;
+	max-width: 100% ;
 }
 
 h2{
@@ -119,7 +147,6 @@ h2{
 	grid-area: album;
 }
 
-}
 .kosmo{
 	max-width: 220px;
 	max-height: 220px;
@@ -137,13 +164,12 @@ h2{
   font-size: 1.5em;
 }
 .tour{
-	display: grid;
+	/* display: grid;
 	grid-template-columns: 3fr 1fr;
 	justify-content: center;
-	margin-left: 200px;
-	margin-right: 200px;
 	grid-row-gap:10px;
-	font-size: 30px;
+	/* font-size: 30px; */
+	grid-area: tour;
 	}
 
 .flying{
@@ -153,16 +179,20 @@ h2{
 	display: flex;
 	justify-content: center;
 }
+
+.about{
+	display: grid;
+	grid-area:about;
+}
+
 .abouttext{
-	margin-left: 20%;
-	margin-right: 20%;
-	font-size: 30px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	font-size: 2em;
 }
 
 .bandmembers {
-	padding-left: 20%;
-	padding-right: 20%;
-	
+	grid-area: bandmembers;
 }
 
 /* Flip card
@@ -209,6 +239,7 @@ ________________________________________________________________________________
 
 .instagram {
 	overflow: hidden;
+	grid-area: instagram;
 }
 
 .instagram .wrap {
@@ -255,6 +286,7 @@ ________________________________________________________________________________
 	justify-self:end;
 	align-self: center;
 	width: 80%;
+	grid-area: button;
 }
 
 .ticket {
