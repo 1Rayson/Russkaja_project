@@ -8,16 +8,10 @@ body{
 *{
   box-sizing: border-box;
 }
-ul{
-	list-style-type: none;
-	font-size: 25px;
-	margin-right: -360px;
-	
+p{
+	font-size: 30px;
 }
-li{
-	margin-top: 70px;
-	margin-bottom: -20px;
-}
+
 img{
 	max-width: 100%;
 }
