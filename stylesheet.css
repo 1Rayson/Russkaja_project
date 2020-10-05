@@ -8,9 +8,7 @@ body{
 *{
   box-sizing: border-box;
 }
-p{
-	font-size: 30px;
-}
+
 
 img{
 	max-width: 100%;
@@ -120,7 +118,9 @@ h2{
 	margin-left: 200px;
 	margin-right: 200px;
 	grid-row-gap:10px;
-}
+	font-size: 30px;
+	}
+
 .flyingrobot{
 	text-align: center;
 }
