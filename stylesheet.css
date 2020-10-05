@@ -224,12 +224,8 @@ ________________________________________________________________________________
 
 .ticket {color:black;}
 
-
-/* Mobile Style */
-
-/* small tablets styles */
-@media screen and (min-width: 620px){
-
+/* desktop styles */
+@media screen and (min-width: 1200px) {  
 }
 
 /* large tablets & laptop styles */
@@ -237,6 +233,12 @@ ________________________________________________________________________________
     
 }
 
-/* desktop styles */
-@media screen and (min-width: 1200px) {  
+/* small tablets styles */
+@media screen and (min-width: 620px){
+
+}
+
+/* Mobile Style */
+@media screen and (min-width: 375px){
+
 }
