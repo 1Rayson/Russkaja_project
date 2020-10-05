@@ -26,7 +26,9 @@ html{
 .quote {
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 50px;
 	width: 28em;
+	font-size: 20px;
 }
 
 body{
