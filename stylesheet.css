@@ -3,20 +3,21 @@
 /* Reset */
 body{
   margin: 0;
-
 }
+
 *{
   box-sizing: border-box;
 }
 
-
 img{
 	max-width: 100%;
 }
+
 /* Base Styles */
 html{
 	scroll-behavior: smooth;
 }
+
 @font-face {
 	font-family: russian;
 	src: url(media/Russian.ttf);
@@ -62,6 +63,7 @@ body{
 		"line-left-short line-left panel content images line-right line-right-short"
 		". . . footer footer . .";
 }
+
 .quote {
 	margin-left: auto;
 	margin-right: auto;
@@ -120,7 +122,7 @@ h2{
 	grid-row-gap:10px;
 	font-size: 30px;
 	}
-
+}
 .flyingrobot{
 	text-align: center;
 }
@@ -221,12 +223,12 @@ ________________________________________________________________________________
 /* Fonts */
 
 /* Buttons */
-.button {
+.button{
 	border: solid black;
 	padding: 8px 18px;
 	font-size: 16px;
 	font-family: russian, serif;
-	justify-self: end;
+	justify-self:end;
 	align-self: center;
 	width: 80%;
 }
@@ -238,8 +240,6 @@ ________________________________________________________________________________
   }
 .sold-out {
 	background-color:#FDEEC9;
-	
-	
 }
 /* On mouse-over */
 .ticket:hover {background: #eee;}
