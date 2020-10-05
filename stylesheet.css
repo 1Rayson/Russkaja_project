@@ -127,6 +127,12 @@ h2{
 	font-size: 30px;
 }
 
+.bandmembers {
+	padding-left: 220px;
+	padding-right: 220px;
+	width: 1450px;
+}
+
 /* Flip card
 ____________________________________________________________________________________________________ */
 .flip-card {
