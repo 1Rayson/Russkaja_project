@@ -198,7 +198,7 @@ ________________________________________________________________________________
 	display: inline-block;
 	font-family: russian, serif;
 	position: relative;
-	left: 300px;
+	left: 400px;
   }
 .sold-out {
 	border: solid black;
@@ -208,7 +208,7 @@ ________________________________________________________________________________
 	display: inline-block;
 	font-family: russian, serif;
 	position: relative;
-	left: 300px;
+	left: 400px;
 }
 /* On mouse-over */
 .ticket:hover {background: #eee;}
