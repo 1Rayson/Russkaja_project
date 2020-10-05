@@ -30,12 +30,6 @@ html{
 	src: url(media/Russian.ttf);
 }
 
-.quote {
-	margin-left: auto;
-	margin-right: auto;
-	width: 28em;
-}
-
 body{
 	background-color: #DD3D39;
 	font-family: russian, serif;
@@ -64,6 +58,13 @@ body{
 .top{
   position: relative;
   top: 69px;
+}
+.quote {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 28em;
+	font-size: 20px;
 }
 
 .peacehands{
@@ -151,7 +152,7 @@ ________________________________________________________________________________
   }
   
   .flip-card-front {
-	color: black;x
+	color: black;
   }
   
   .flip-card-back {
@@ -229,12 +230,8 @@ ________________________________________________________________________________
 
 .ticket {color:black;}
 
-
-/* Mobile Style */
-
-/* small tablets styles */
-@media screen and (min-width: 620px){
-
+/* desktop styles */
+@media screen and (min-width: 1200px) {  
 }
 
 /* large tablets & laptop styles */
@@ -242,6 +239,12 @@ ________________________________________________________________________________
     
 }
 
-/* desktop styles */
-@media screen and (min-width: 1200px) {  
+/* small tablets styles */
+@media screen and (min-width: 620px){
+
+}
+
+/* Mobile Style */
+@media screen and (min-width: 375px){
+
 }
