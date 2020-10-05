@@ -110,10 +110,11 @@ h2{
 }
 .tour{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 3fr 1fr;
 	justify-content: center;
-	margin-left: 300px;
-	margin-right: 700px;
+	margin-left: 200px;
+	margin-right: 200px;
+	grid-row-gap:10px;
 }
 
 .abouttext{
@@ -204,26 +205,25 @@ ________________________________________________________________________________
 /* Fonts */
 
 /* Buttons */
-.ticket {
+.button {
 	border: solid black;
-	background-color: #eec941;
 	padding: 8px 18px;
 	font-size: 16px;
+	font-family: russian, serif;
+	justify-self: end;
+	align-self: center;
+	width: 80%;
+}
+
+.ticket {
+	background-color: #eec941;
 	cursor: pointer;
 	display: inline-block;
-	font-family: russian, serif;
-	position: relative;
-	left: 400px;
   }
 .sold-out {
-	border: solid black;
 	background-color:#FDEEC9;
-	padding: 8px 18px;
-	font-size: 16px;
-	display: inline-block;
-	font-family: russian, serif;
-	position: relative;
-	left: 400px;
+	
+	
 }
 /* On mouse-over */
 .ticket:hover {background: #eee;}
