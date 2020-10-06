@@ -205,13 +205,19 @@ h2{
 }
 
 .abouttext{
-	margin-left: 2.5%;
-	margin-right: 2.5%;
-	font-size: 2em;
+	padding-left: 200px;
+	padding-right: 200px;
+	
+	font-size: 1.5em;
 }
 
 .bandmembers {
 	grid-area: bandmembers;
+}
+
+.event{
+	display: grid;
+  	grid-template-columns: 1fr 1fr;
 }
 
 /* Flip card
