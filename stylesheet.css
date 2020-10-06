@@ -53,10 +53,10 @@ img{
 }
 
 .wrapper-tour{
-	grid-template-columns: 20px 10px 1fr 10px 20px ;
-	grid-template-areas:
-		". . h2 h2 . . "
-		"line-left-short line-left tour ticket line-right line-right-short" ;
+	grid-template-columns: 20px 10px .5fr .5fr 10px 20px;
+    grid-template-areas:
+        ". . h2 h2 . . "
+        "line-left-short line-left tour tour line-right line-right-short";
 }
 
 .wrapper-instagram{
@@ -183,13 +183,10 @@ h2{
   font-size: 1.5em;
 }
 .tour{
-	/* display: grid;
-	grid-template-columns: 3fr 1fr;
-	justify-content: center;
-	grid-row-gap:10px;
-	/* font-size: 30px; */
+	width: 500px;
+    margin: auto;
 	grid-area: tour;
-	}
+}
 
 .flying{
 	text-align: center;
@@ -222,6 +219,10 @@ h2{
 .event{
 	display: grid;
 	  grid-template-columns: 1fr 1fr;
+}
+p{
+	font-size: 1.3em;
+	
 }
 
 /* Flip card
@@ -312,18 +313,22 @@ ________________________________________________________________________________
 	padding: 8px 18px;
 	font-size: 16px;
 	font-family: russian, serif;
-	justify-self:end;
+	justify-self:centers;
 	align-self: center;
 	grid-area: button;
+	min-width: 98px;
+	margin-top: 1em;
 }
 
 .ticket {
 	background-color: #eec941;
 	cursor: pointer;
 	display: inline-block;
+	
   }
 .sold-out {
 	background-color:#FDEEC9;
+	
 	
 }
 /* On mouse-over */
