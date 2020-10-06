@@ -336,13 +336,10 @@ ________________________________________________________________________________
 
 .header__menu a:hover {color:black}
 
-/* desktop styles */
-@media screen and (min-width: 1200px) {  
-}
-
-/* large tablets & laptop styles */
-@media screen and (min-width: 960px){
-    
+/* Mobile Style */
+@media screen and (min-width: 375px){
+	
+	}
 }
 
 /* small tablets styles */
@@ -350,7 +347,13 @@ ________________________________________________________________________________
 
 }
 
-/* Mobile Style */
-@media screen and (min-width: 375px){
+/* large tablets & laptop styles */
+@media screen and (min-width: 1025px){
+    .album{
+		grid-template-columns: 1fr 1fr;
+	}
+}
 
+/* desktop styles */
+@media screen and (min-width: 1200px) {  
 }
