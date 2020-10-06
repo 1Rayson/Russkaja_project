@@ -15,6 +15,7 @@
 
 <body>
     <header class="header">
+        <img class="logo" src="media/Logo.svg" alt="logo">
         <nav class="header__menu">
             <a href="#home">Home</a>
             <a href="#album">Albums</a>
@@ -335,6 +336,16 @@
         </section>
     </main>
     <script>
+        var nav = document.querySelector(".header__menu");
+
+        window.addEventListener("scroll", function(){
+            if(window.scrollY >= 92){
+                nav.classList.add("fixed");
+            }else{
+                nav.classList.remove("fixed");
+            }
+        });
+
         $(window).on("load", function () {
             $.instagramFeed({
                 "username": "russkaja_official",

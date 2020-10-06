@@ -13,6 +13,16 @@ img{
 	max-width: 100%;
 }
 
+.logo{
+	width: 24%;
+    z-index: 101;
+    position: relative;
+}
+
+.fixed{
+	position: fixed;
+	top: 0;
+}
 /* Sidelines */
 .wrapper {
 	display: grid;
@@ -96,7 +106,6 @@ body{
 }
 .header__menu{
   width: 100%;
-  position: fixed;
   z-index: 100;
   top: 0;
   left: 0;
@@ -285,7 +294,6 @@ ________________________________________________________________________________
 	font-family: russian, serif;
 	justify-self:end;
 	align-self: center;
-	width: 80%;
 	grid-area: button;
 }
 
