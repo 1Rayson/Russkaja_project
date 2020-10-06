@@ -215,9 +215,13 @@ h2{
 	grid-area: bandmembers;
 }
 
+.happy{
+	text-align: center;
+}
+
 .event{
 	display: grid;
-  	grid-template-columns: 1fr 1fr;
+	  grid-template-columns: 1fr 1fr;
 }
 
 /* Flip card
@@ -325,6 +329,8 @@ ________________________________________________________________________________
 .ticket:hover {background: #eee;}
 
 .ticket {color:black;}
+
+.header__menu a:hover {color:black}
 
 /* desktop styles */
 @media screen and (min-width: 1200px) {  
