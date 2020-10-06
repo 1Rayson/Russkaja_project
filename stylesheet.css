@@ -19,6 +19,16 @@ img{
     position: relative;
 }
 
+.logo_cotainer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.star{
+	width: 4%;
+}
+
 .fixed{
 	position: fixed;
 	top: 0;
