@@ -71,9 +71,9 @@ img{
 	" line-left-short line-left about line-right line-right-short";
 }
 
-.wrapper-sign-up{
+/* .wrapper-sign-up{
 	grid-template-areas: ;
-}
+} */
 
 .line-left{
 	grid-area: line-left;
