@@ -132,6 +132,10 @@ body{
   top: 69px;
 }
 
+.nav{
+
+}
+
 .quote {
 	margin-left: auto;
 	margin-right: auto;
@@ -319,6 +323,8 @@ ________________________________________________________________________________
 .ticket:hover {background: #eee;}
 
 .ticket {color:black;}
+
+.header__menu a:hover {color:black}
 
 /* desktop styles */
 @media screen and (min-width: 1200px) {  
