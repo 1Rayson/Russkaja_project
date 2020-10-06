@@ -71,10 +71,6 @@ img{
 	" line-left-short line-left about line-right line-right-short";
 }
 
-.wrapper-sign-up{
-	grid-template-areas: ;
-}
-
 .line-left{
 	grid-area: line-left;
 	border-left:10px solid #FDEEC9
@@ -212,6 +208,10 @@ h2{
 
 .bandmembers {
 	grid-area: bandmembers;
+}
+
+.happy{
+	text-align: center;
 }
 
 /* Flip card
