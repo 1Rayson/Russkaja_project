@@ -179,7 +179,7 @@ h2{
   font-size: 1.5em;
 }
 .tour{
-	width: 500px;
+	width: 80%;
     margin: auto;
 	grid-area: tour;
 }
