@@ -75,7 +75,8 @@ img{
 .wrapper-about{
 	grid-template-areas: 
 	". . h2 . ."
-	" line-left-short line-left about line-right line-right-short";
+	" line-left-short line-left about line-right line-right-short"
+	"line-left-short line-left bandmembers";
 }
 
 .line-left{
@@ -187,7 +188,7 @@ h2{
   text-decoration: none;
   font-size: 1.5em;
 }
-  
+
 .tour{
 	width: 80%;
     margin: auto;
@@ -210,6 +211,7 @@ h2{
 }
 
 .abouttext{
+
 	text-align: center;
 	font-size: 1.5em;
 }
