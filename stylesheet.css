@@ -215,7 +215,7 @@ hr {
 
 .about{
 	display: grid;
-
+	
 	grid-area:about;
 }
 
