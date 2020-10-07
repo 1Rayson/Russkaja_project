@@ -220,6 +220,7 @@ hr {
 }
 
 .happy{
+	border: 15px solid #FDEEC9;
 	z-index: -10;
     max-width: 75%;
     margin: auto;
