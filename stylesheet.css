@@ -206,7 +206,6 @@ h2{
 
 .about{
 	display: grid;
-	
 	grid-area:about;
 }
 
