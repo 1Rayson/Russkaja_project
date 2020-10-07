@@ -70,13 +70,17 @@ img{
 	grid-template-areas:
 		". . h2 . ."
 		"line-left-short line-left instagram line-right line-right-short" ;
+		display: grid;
+		grid-gap: 10px;
 }
 
 .wrapper-about{
+	display: grid;
+	grid-gap: 10px;
 	grid-template-areas: 
 	". . h2 . ."
-	" line-left-short line-left about line-right line-right-short"
-	"line-left-short line-left bandmembers";
+	"line-left-short line-left about line-right line-right-short"
+	"line-left-short line-left bandmembers line-right line-right-short";
 }
 
 .line-left{
@@ -155,7 +159,7 @@ body{
 }
 
 h2{
-	padding: 69px 50px 0 50px;
+	padding: 69px 0px 0px;
 	color: #FDEEC9;
 	border-bottom: 15px solid #FDEEC9;
 	margin: auto;
@@ -187,6 +191,7 @@ h2{
   color: #FDEEC9;
   text-decoration: none;
   font-size: 1.5em;
+  text-align: center;
 }
 
 .tour{
@@ -208,6 +213,7 @@ h2{
 .about{
 	display: grid;
 	grid-area:about;
+	grid-gap:10px;
 }
 
 .abouttext{
@@ -219,6 +225,8 @@ h2{
 .bandmembers {
 	max-width: 80%;
 	grid-area: bandmembers;
+	margin: auto;
+	padding-bottom: 10px;
 }
 
 .happy{
@@ -250,6 +258,7 @@ ________________________________________________________________________________
 	background-color: transparent;
 	width: 220px;
 	height: 220px;
+	object-fit: cover;
 	perspective: 1000px;
 }
 
@@ -267,8 +276,7 @@ ________________________________________________________________________________
   
   .flip-card-front, .flip-card-back {
 	position: absolute;
-	width: 220px;
-	height: 220px;
+	width: 100%;
 	-webkit-backface-visibility: hidden; /* Safari */
 	backface-visibility: hidden;
   }
@@ -447,21 +455,40 @@ ________________________________________________________________________________
 
 /* Mobile Style */
 @media screen and (min-width: 375px){
-	
+	.album{
+		display: block;
+	}
+
+	.flip-card{
+		margin: auto;
+	}
+
+	.quote{
+		width: 100%;
+	}
+
+	h2{
+		padding: 150px 0px 0px;
+	}
 }
 
 /* small tablets styles */
 @media screen and (min-width: 620px){
-
+	.album{
+		grid-template-columns: 1fr 1fr;
+		display: grid;
+	}
 }
 
 /* large tablets & laptop styles */
 @media screen and (min-width: 1025px){
     .album{
-		grid-template-columns: 1fr 1fr 1fr
+		grid-template-columns: 1fr 1fr 1fr;
+		display: grid;
 	}
 }
 
 /* desktop styles */
 @media screen and (min-width: 1200px) {  
+
 }
