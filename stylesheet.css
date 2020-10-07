@@ -215,17 +215,17 @@ hr {
 
 .about{
 	display: grid;
+
 	grid-area:about;
 }
 
 .abouttext{
-	padding-left: 200px;
-	padding-right: 200px;
-	
+	text-align: center;
 	font-size: 1.5em;
 }
 
 .bandmembers {
+	max-width: 80%;
 	grid-area: bandmembers;
 }
 
