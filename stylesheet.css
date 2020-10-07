@@ -391,11 +391,12 @@ ________________________________________________________________________________
 
 /* The popup form - hidden by default */
 .form-popup {
+	color: white;
   display: none;
   position: absolute;
   top: 32%;
 	left: 50%;
-	border: 3px solid #f1f1f1;
+	border: 3px solid #FDEEC9;
 	z-index: 9;
 	transform: translateX(-50%);
 }
@@ -404,7 +405,7 @@ ________________________________________________________________________________
 .form-container {
   max-width: 300px;
   padding: 10px;
-  background-color: white;
+  background-color:black;
 }
 
 /* Full-width input fields */
