@@ -268,10 +268,14 @@ ________________________________________________________________________________
   }
   
   .flip-card-back {
+	font-size: 0.8em;
 	background-color: black;
 	color:white;
 	transform: rotateY(180deg);
   }
+
+
+
 
 /* Instagram
 ---------------------------------------------------------------------------------------------------- */
@@ -352,7 +356,6 @@ ________________________________________________________________________________
 /* Mobile Style */
 @media screen and (min-width: 375px){
 	
-	}
 }
 
 /* small tablets styles */
@@ -363,7 +366,7 @@ ________________________________________________________________________________
 /* large tablets & laptop styles */
 @media screen and (min-width: 1025px){
     .album{
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr
 	}
 }
 
