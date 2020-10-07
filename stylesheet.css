@@ -187,16 +187,6 @@ h2{
   text-decoration: none;
   font-size: 1.5em;
 }
-hr {
-	display: block;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	margin-left: 0.5px;
-	margin-right: -270px;
-	border-style: inset;
-	border-width: 5px;
-	border-color:#FDEEC9;
-  }
   
 .tour{
 	width: 80%;
@@ -207,6 +197,7 @@ hr {
 
 .flying{
 	text-align: center;
+	padding-top: 50px;
 }
 .image {
 	display: flex;
@@ -245,6 +236,7 @@ hr {
 .event{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	border-bottom: 4px solid #FDEEC9;
 }
 p{
 	font-size: 1.3em;
