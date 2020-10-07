@@ -183,6 +183,16 @@ h2{
     margin: auto;
 	grid-area: tour;
 }
+hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: 100px;
+	margin-right: -5px;
+	border-style: inset;
+	border-width: 2px;
+	color: yellow;
+  }
 
 .flying{
 	text-align: center;
@@ -215,6 +225,9 @@ h2{
 .event{
 	display: grid;
 	  grid-template-columns: 1fr 1fr;
+	  margin-top: 50px;
+	  margin-bottom: 20px;
+	  
 }
 p{
 	font-size: 1.3em;
