@@ -182,6 +182,7 @@ h2{
 	width: 80%;
     margin: auto;
 	grid-area: tour;
+	padding-left: 100px;
 }
 hr {
 	display: block;
