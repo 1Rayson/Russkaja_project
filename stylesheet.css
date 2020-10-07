@@ -42,7 +42,10 @@ img{
 }
 
 .wrapper-home{
-
+	grid-template-areas:
+	". . quote . ."
+	"line-left-short line-left peacehands line-right line-right-short"
+	;
 }
 
 .wrapper-album {
@@ -138,10 +141,12 @@ body{
 	margin-top: 50px;
 	width: 28em;
 	font-size: 20px;
+	grid-area:quote;
 }
 
 .peacehands{
 	max-width: 100% ;
+	grid-area:peacehands;
 }
 
 h2{
@@ -178,12 +183,6 @@ h2{
   text-decoration: none;
   font-size: 1.5em;
 }
-.tour{
-	width: 80%;
-    margin: auto;
-	grid-area: tour;
-	padding-left: 100px;
-}
 hr {
 	display: block;
 	margin-top: 0.5em;
@@ -194,6 +193,13 @@ hr {
 	border-width: 1px;
 	border-color:#FDEEC9;
   }
+  
+.tour{
+	width: 80%;
+    margin: auto;
+	grid-area: tour;
+	padding-left: 100px;
+}
 
 .flying{
 	text-align: center;
@@ -228,14 +234,12 @@ hr {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+	text-align: center;
 }
 
 .event{
 	display: grid;
-	  grid-template-columns: 1fr 1fr;
-	  margin-top: 50px;
-	  margin-bottom: 20px;
-	  
+	grid-template-columns: 1fr 1fr;
 }
 p{
 	font-size: 1.3em;
@@ -276,7 +280,6 @@ ________________________________________________________________________________
   }
   
   .flip-card-back {
-	font-size: 0.8em;
 	background-color: black;
 	color:white;
 	transform: rotateY(180deg);
