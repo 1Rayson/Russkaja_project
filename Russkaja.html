@@ -38,7 +38,7 @@
     <main class="top" id="home">
 
 
-        <Section class="home">
+        <Section class="home wrapper-home">
             <article class="quote">
                 <p>“WelcOme my friend this is the best part Of the Game
                     When peOple cOme tOgether just tO feel the same
@@ -417,25 +417,39 @@
                 <div class="line-right"></div>
                 <div class="line-right-short"></div>
         </section>
+
+
         <section class="sign-up" id="sign-up">
             <img class="happy" src="media/russkaja happy.svg" alt="sign-up box">
+        </section>
+        <section class="newsletter">
             <div class="form-popup" id="myForm">
-                <form action="/action_page.php" class="form-container">
-                  <h1>Login</h1>
-              
-                  <label for="email"><b>Email</b></label>
-                  <input type="text" placeholder="Enter Email" name="email" required>
-              
-                  <label for="psw"><b>Password</b></label>
-                  <input type="password" placeholder="Enter Password" name="psw" required>
-              
-                  <button type="submit" class="btn">Login</button>
-                  <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
-                </form>
-              </div>
+            <form action="/action_page.php" class="form-container">
+              <h1>Login</h1>
+          
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <button type="submit" class="btn">Login</button>
+              <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+          </div>
         </section>
     </main>
     <script>
+        function openForm() {
+        document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+        }
+
+
+
         var nav = document.querySelector(".header__menu");
 
         window.addEventListener("scroll", function(){
