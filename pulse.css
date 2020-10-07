@@ -45,7 +45,9 @@
   .pulse_holder .pulse_rays {
     margin: 0 auto;
     border-radius: 100px;
-    position: absolute;
+    position: relative;
+    top: 80px;
+    right: 161px;
     z-index: 10;
     background-color: transparent;
     width: 150px;
@@ -65,8 +67,8 @@
   margin: 0 auto;
   border-radius: 100px;
   position: absolute;
-  left: 50%;
-  top: -36px;
+  left: 610px;
+  top: 55px;
   z-index: 10;
   background-color: transparent;
   width: 200px;
@@ -78,11 +80,13 @@
   -o-border-radius: 100px;
   -ms-border-radius: 100px;
   border-radius: 100px;
-  -webkit-animation: pulse 1s linear infinite;
-  -moz-animation: pulse 1s linear infinite;
+  -webkit-animation: pulse 2s linear infinite;
+  -moz-animation: pulse 2s linear infinite;
   border-image: initial;  
 }
   
 .pulse_holder img{
-  width: 17%;
+  width: 21%;
+  padding-top: 120px;
+  padding-right: 40px;
 }
