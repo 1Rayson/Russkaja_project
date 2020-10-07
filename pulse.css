@@ -67,7 +67,7 @@
   margin: 0 auto;
   border-radius: 100px;
   position: absolute;
-  left: 610px;
+  left: 40px;
   top: 55px;
   z-index: 10;
   background-color: transparent;
@@ -86,7 +86,7 @@
 }
   
 .pulse_holder img{
-  width: 21%;
+  width: 100%;
   padding-top: 120px;
   padding-right: 40px;
 }
