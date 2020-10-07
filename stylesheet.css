@@ -226,6 +226,7 @@ hr {
 }
 
 .happy{
+	border: 15px solid #FDEEC9;
 	z-index: -10;
     max-width: 75%;
     margin: auto;
@@ -383,7 +384,7 @@ ________________________________________________________________________________
   cursor: pointer;
   opacity: 1;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, 0);
   width: 280px;
@@ -395,7 +396,7 @@ ________________________________________________________________________________
 .form-popup {
   display: none;
   position: absolute;
-  top: 132px;
+  top: 32%;
 	left: 50%;
 	border: 3px solid #f1f1f1;
 	z-index: 9;
