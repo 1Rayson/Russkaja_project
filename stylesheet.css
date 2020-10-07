@@ -380,6 +380,8 @@ ________________________________________________________________________________
 
 {box-sizing: border-box;}
 
+
+
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
   background-color:#FFC800;
@@ -400,11 +402,12 @@ ________________________________________________________________________________
 
 /* The popup form - hidden by default */
 .form-popup {
+	color: white;
   display: none;
   position: absolute;
   top: 32%;
 	left: 50%;
-	border: 3px solid #f1f1f1;
+	border: 3px solid #FDEEC9;
 	z-index: 9;
 	transform: translateX(-50%);
 }
@@ -413,7 +416,7 @@ ________________________________________________________________________________
 .form-container {
   max-width: 300px;
   padding: 10px;
-  background-color: white;
+  background-color:black;
 }
 
 /* Full-width input fields */
@@ -452,6 +455,7 @@ ________________________________________________________________________________
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
 
 /* Mobile Style */
 @media screen and (min-width: 375px){
